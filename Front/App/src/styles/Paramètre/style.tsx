@@ -1,0 +1,116 @@
+import { StyleSheet } from "react-native";
+
+export default StyleSheet.create({
+  centeredView: {
+    flex: 1,
+    justifyContent: "center",
+    alignItems: "center",
+    marginTop: 22,
+    backgroundColor: "white",
+  },
+  modalView: {
+    width: "100%",
+    height: "100%",
+    margin: 20,
+    borderRadius: 20,
+    padding: 35,
+    alignItems: "center",
+  },
+  Space: {
+    width: "100%",
+    height: "100%",
+  },
+
+  button1: {
+    alignSelf: "center",
+    backgroundColor: "#6fcf97",
+    padding: 17,
+    width: "70%",
+    borderRadius: 10,
+    marginTop: 40,
+    marginBottom: 30,
+    borderWidth: 1.5,
+    borderColor: "#6fcf97",
+    shadowColor: "black",
+    shadowOpacity: 0.5,
+    shadowOffset: {
+      width: 0,
+      height: 2,
+    },
+  },
+
+  text: {
+    fontSize: 15,
+    textAlign: "center",
+    marginTop: 0,
+    shadowColor: "black",
+    marginBottom: 245,
+  },
+
+  text2: {
+    fontSize: 15,
+    shadowColor: "black",
+  },
+
+  textInput: {
+    flexDirection: "row",
+    alignItems: "center",
+    marginHorizontal: 50,
+    borderWidth: 1.5,
+    marginTop: 45,
+    paddingHorizontal: 10,
+    borderColor: "grey",
+    borderRadius: 7,
+    paddingVertical: 13,
+  },
+
+  textInput2: {
+    flexDirection: "row",
+    alignItems: "center",
+    marginHorizontal: 50,
+    borderWidth: 1.5,
+    marginTop: 30,
+    paddingHorizontal: 10,
+    borderColor: "grey",
+    borderRadius: 7,
+    paddingVertical: 13,
+  },
+  titre: {
+    fontSize: 35,
+    textAlign: "center",
+    marginTop: 10,
+    marginBottom: 15,
+    color: "black",
+    shadowColor: "white",
+    fontWeight: "400",
+    shadowOffset: { width: 0, height: 3 },
+    shadowOpacity: 0.5,
+  },
+  view: {
+    fontSize: 35,
+    textAlign: "center",
+    marginTop: 10,
+    marginBottom: 15,
+    color: "black",
+    shadowColor: "black",
+    fontWeight: "400",
+    shadowOffset: { width: 0, height: 3 },
+    shadowOpacity: 0.5,
+  },
+  viewcard: {
+    paddingHorizontal: 20,
+    paddingBottom: 20,
+    paddingTop: 20,
+    flexDirection: "row",
+    justifyContent: "space-between",
+  },
+  soustitre: { fontSize: 14, opacity: 0.5, paddingTop: 5 },
+  chevron:{
+    marginTop: "auto",
+    marginBottom: "auto",
+    justifyContent: "flex-end",
+  },
+  ligne:{ height: 0.5, backgroundColor: "grey" },
+  logout:{ fontSize: 19, opacity: 0.5, paddingTop: 25 },
+  buttonlogout:{ justifyContent: "center", alignItems: "center" },
+});
